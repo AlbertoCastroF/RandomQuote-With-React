@@ -1,0 +1,40 @@
+#quote-box {
+  background-color: white;
+  max-width: 700px;
+  max-height: auto;
+}
+
+#quote-box_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+#text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#author {
+  text-align: right;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+#tweet-quote {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+#facebook {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+#new-quote {
+  animation: none;
+  color: white;
+  font-weight: 500;
+  outline: none;
+}
